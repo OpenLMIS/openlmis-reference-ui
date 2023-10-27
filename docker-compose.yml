@@ -70,7 +70,7 @@ services:
     volumes:
       - '/openlmis-ui-layout'
   offline-ui:
-    image: openlmis/offline-ui:1.0.4-RC1
+    image: openlmis/offline-ui:1.0.5-RC1
     volumes:
       - '/openlmis-offline-ui'
   one-network-integration-ui:

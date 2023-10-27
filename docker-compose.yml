@@ -46,7 +46,7 @@ services:
     volumes:
       - '/openlmis-referencedata-ui'
   report-ui:
-    image: openlmis/report-ui:5.2.10-RC1
+    image: openlmis/report-ui:5.2.11-RC1
     volumes:
       - '/openlmis-report-ui'
   requisition-ui:

@@ -74,7 +74,7 @@ services:
     volumes:
       - '/openlmis-offline-ui'
   one-network-integration-ui:
-    image: openlmis/one-network-integration-ui:0.5.5-SNAPSHOT
+    image: openlmis/one-network-integration-ui:0.0.5-SNAPSHOT
     volumes:
       - '/one-network-integration-ui'
   image:

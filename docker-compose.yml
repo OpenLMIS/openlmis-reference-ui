@@ -34,15 +34,15 @@ services:
       - offline-ui
       - one-network-integration-ui
   auth-ui:
-    image: openlmis/auth-ui:6.2.17-SNAPSHOT
+    image: openlmis/auth-ui:6.2.18-SNAPSHOT
     volumes:
       - '/openlmis-auth-ui'
   fulfillment-ui:
-    image: openlmis/fulfillment-ui:6.1.8-SNAPSHOT
+    image: openlmis/fulfillment-ui:6.1.9-SNAPSHOT
     volumes:
       - '/openlmis-fulfillment-ui'
   referencedata-ui:
-    image: openlmis/referencedata-ui:5.6.18-SNAPSHOT
+    image: openlmis/referencedata-ui:5.6.19-SNAPSHOT
     volumes:
       - '/openlmis-referencedata-ui'
   report-ui:
@@ -50,23 +50,23 @@ services:
     volumes:
       - '/openlmis-report-ui'
   requisition-ui:
-    image: openlmis/requisition-ui:7.0.16-SNAPSHOT
+    image: openlmis/requisition-ui:7.0.17-SNAPSHOT
     volumes:
       - '/openlmis-requisition-ui'
   stockmanagement-ui:
-    image: openlmis/stockmanagement-ui:2.1.10-SNAPSHOT
+    image: openlmis/stockmanagement-ui:2.1.11-SNAPSHOT
     volumes:
       - '/openlmis-stockmanagement-ui'
   cce-ui:
-    image: openlmis/cce-ui:1.1.10-SNAPSHOT
+    image: openlmis/cce-ui:1.1.11-SNAPSHOT
     volumes:
       - '/openlmis-cce-ui'
   ui-components:
-    image: openlmis/ui-components:7.2.15-SNAPSHOT
+    image: openlmis/ui-components:7.2.16-SNAPSHOT
     volumes:
       - '/openlmis-ui-components'
   ui-layout:
-    image: openlmis/ui-layout:5.2.10-SNAPSHOT
+    image: openlmis/ui-layout:5.2.11-SNAPSHOT
     volumes:
       - '/openlmis-ui-layout'
   offline-ui:
